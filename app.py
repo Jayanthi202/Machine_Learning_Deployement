@@ -8,7 +8,7 @@ import pandas as pd
 # -----------------------------
 imputer = joblib.load("imputer.joblib")
 scaler = joblib.load("scaler.joblib")
-best_model = joblib.load("model.joblib")  # <-- Make sure you exported this correctly
+best_model = joblib.load("logistic_regression_model.joblib")  # <-- Make sure you exported this correctly
 
 # Columns where zero is invalid
 zero_columns = ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
