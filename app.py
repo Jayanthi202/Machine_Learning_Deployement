@@ -4,8 +4,7 @@ import joblib
 import numpy as np
 # Initialize Flask app
 app = Flask(__name__)
-# Run with ngrok to expose the server
-run_with_ngrok(app)
+
 import joblib
 
 # Save the imputer object
@@ -18,10 +17,7 @@ print("Scaler successfully exported as 'scaler.joblib'")
 # Define the columns where zero values are biologically implausible (consistent with preprocessing)
 zero_columns = ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
 
-# Initialize Flask app
-app = Flask(__name__)
-# Run with ngrok to expose the server
-run_with_ngrok(app)
+
 
 @app.route('/')
 def home():
