@@ -1,3 +1,5 @@
-flask
+Flask
+gunicorn
+imputer
 joblib
 numpy
