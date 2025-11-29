@@ -103,7 +103,7 @@ Go to:http://127.0.0.1:5000/
 📸 UI Screenshots
 -----------------
 
-https://github.com/Anurag07-cool/Diabeties_Prediction_Model/blob/main/Screenshot%202025-11-26%20081636.png
+
 
 🤝 Contributing
 ---------------
@@ -123,4 +123,4 @@ Open-source project — free to use.
 ---------
 
 **Your Name Anurag**
-GitHub: https://github.com/Anurag07-cool/Diabeties_Prediction_Model
+GitHub: https://github.com/Jayanthi202/Diabeties_Prediction_Model
